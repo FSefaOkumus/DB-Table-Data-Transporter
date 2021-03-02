@@ -20,3 +20,5 @@ Tested with localhost server (with varchar,int column type and default schema)
 ![2](https://user-images.githubusercontent.com/62523196/109721953-1669cd00-7bbd-11eb-9021-b3c0c3b92138.PNG)
 
 ![3](https://user-images.githubusercontent.com/62523196/109721963-1b2e8100-7bbd-11eb-982b-6e0f6afdd830.PNG)
+
+ENG[3rd Image]: Selected table -tablenamefromMySQL- from (MySQL) succesfully copied into -PostgreSQL_DatabaseNAME-.
