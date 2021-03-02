@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Table Names</title>
+</head>
+<body>
+<style>
+
+ td {
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      }
+</style>
+<table>
+  <thead>
+    <tr>
+        <th>MYSQL Table Names</th>
+    </tr>
+    </thead>
+    <tbody>
+     {% for row in data %}
+            <tr>
+                <td>{{row[0]}}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<form method="POST" action="/2">
+   <select name="list" multiple>
+        <option selected hidden value="">Table Names</option>
+        {% for row in data %}
+
+        <option value={{row[0]}} >{{row[0]}}</option>
+
+
+        {% endfor %}
+         </select>
+    <input type="Submit">
+    </form>
+</body>
+
+</html>
