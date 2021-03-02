@@ -1,4 +1,6 @@
 # DB-Table-Data-Transporter
+-Designed for Copying a Table from MySQL DB , into PostgreSQL DB.
+
 -FLASK Project
 
 - Takes inputs( USER,PASSWORD,DATABASE NAME, HOST IP ) for both MySQL and PostgreSQL Database
