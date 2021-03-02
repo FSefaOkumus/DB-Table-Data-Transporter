@@ -12,4 +12,4 @@
 - Displays a message for succeed process.
 
 
-Tested with localhost server.
+Tested with localhost server (with varchar,int column type and default schema)
