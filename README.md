@@ -10,3 +10,6 @@
 - (!!!DROPS table if there is table with same namee ,so check your PostgreSQL DB before!!!)
 - Copies MySQL table columns and datas into new created table in PostgreSQL.
 - Displays a message for succeed process.
+
+
+Tested with localhost server.
